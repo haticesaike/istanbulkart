@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="background-controller">
+        <div class="container">
+          <div class="header-top">
+            <a href="#" class="logo-area">
+              <!-- <img src="" class="logo-img" alt=""> -->
+              <svg
+                width="200"
+                height="32"
+                viewBox="0 0 200 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18.5451 26.5962C20.6 26.5962 21.9402 25.7028 21.9402 24.3624C21.9402 23.4691 21.4934 22.9329 20.2426 22.6649L16.3113 21.9057C11.7994 20.9673 9.38731 18.7341 9.38731 15.2943C9.38731 11.0502 13.1398 8.19129 18.6789 8.14661C22.9229 8.14661 26.4071 10.5142 27.4349 13.9986L22.2975 15.5624C21.9849 13.9986 20.5107 12.9263 18.5451 12.9263C16.7137 12.9263 15.5519 13.7751 15.5519 15.0708C15.5519 16.0533 16.2222 16.7238 17.7409 16.9917L21.6721 17.7955C25.8715 18.5999 28.1048 20.7889 28.1048 24.0498C28.1048 28.4279 24.3078 31.3762 18.6789 31.3762C13.4077 31.3762 9.43181 28.5618 8.80658 24.3624L14.0331 23.5587C14.1672 25.39 15.9987 26.5962 18.5451 26.5962ZM66.3272 30.8401H71.6431V8.6828H66.3272L65.523 12.0778H65.3889C64.6297 9.75488 61.9938 8.14676 58.7775 8.14676C52.7022 8.14676 48.6816 12.7926 48.6816 19.7615C48.6816 26.7304 52.7022 31.3762 58.7775 31.3762C61.9938 31.3762 64.6297 29.7681 65.3889 27.4005H65.523V27.4452L66.3272 30.8401ZM60.2071 13.7306C63.4233 13.7306 65.523 16.1431 65.523 19.7615C65.523 23.3799 63.4233 25.7922 60.2071 25.7922C57.0354 25.7922 54.9357 23.3799 54.9357 19.7615C54.9357 16.1431 57.0354 13.7306 60.2071 13.7306ZM40.5239 23.0225V14.0432L46.0854 14.0432V8.68238L40.5239 8.68238L40.5239 0.105358H34.4036L34.4036 8.68238H29.4897V14.0432H34.4036V23.3798C34.4036 28.1599 37.1734 30.8401 41.9981 30.8401L46.0854 30.8401V25.4346H43.383C41.5958 25.4346 40.5239 24.5413 40.5239 23.0225ZM97.0051 16.5449V30.8402H90.8853V18.6444C90.8853 15.7854 89.1431 13.8647 86.6412 13.8647C83.9162 13.8647 82.1293 15.9197 82.1293 18.9125V30.8402H76.0092V8.68246H81.3251L82.1293 12.1672H82.2635C83.0226 9.75473 85.7032 8.1466 89.0088 8.1466C93.8336 8.1466 97.0051 11.4967 97.0051 16.5449ZM123.696 19.7613C123.696 26.7304 119.676 31.3762 113.6 31.3762C110.384 31.3762 107.748 29.7679 107.034 27.4003H106.899L106.095 30.8401L100.779 30.8401V0.105206L106.899 0.105206V12.0776H107.034C107.748 9.75469 110.384 8.14676 113.6 8.14676C119.676 8.14676 123.696 12.7926 123.696 19.7613ZM117.442 19.7613C117.442 16.1431 115.342 13.7304 112.171 13.7304C108.999 13.7304 106.899 16.1431 106.899 19.7613C106.899 23.3799 108.999 25.792 112.171 25.792C115.342 25.792 117.442 23.3799 117.442 19.7613ZM147.751 8.68238V30.8401H142.436L141.631 27.4002H141.452C140.693 29.7678 138.013 31.3761 134.752 31.3761C129.927 31.3761 126.711 28.0257 126.711 22.9777V8.68238L132.831 8.68238V20.878C132.831 23.7371 134.528 25.6581 137.075 25.6581C139.844 25.6581 141.631 23.648 141.631 20.6101V8.68238H147.751ZM151.392 23.3798C151.392 28.1599 154.161 30.8401 158.986 30.8401L162.917 30.8401V25.0773H159.656C158.316 25.0773 157.512 24.3179 157.512 23.0225V0.105358H151.392V23.3798ZM0.223975 8.68229H6.34385L6.34385 30.84H0.223975L0.223975 8.68229ZM0.19046 5.81217H6.37755V0.105263H0.19046L0.19046 5.81217Z"
+                  fill="#1581BE"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M199.81 22.6906C198.13 26.2468 195.253 29.1245 191.696 30.804H199.81V22.6906ZM184.46 7.97384C178.457 2.703 171.225 5.25047 171.225 12.9224C171.225 20.5944 184.46 29.0277 184.46 29.0277C184.46 29.0277 197.696 20.6237 197.696 12.9224C197.696 5.22131 189.731 2.61514 184.46 7.97384ZM177.224 0.105316H169.111V8.21863C170.791 4.66251 173.668 1.78482 177.224 0.105316ZM199.81 0.105354V8.21867C198.13 4.66255 195.253 1.78486 191.696 0.105354H199.81ZM169.111 30.804V22.6906C170.79 26.2468 173.668 29.1245 177.224 30.804H169.111Z"
+                  fill="#67DBFF"
+                ></path>
+              </svg>
+            </a>
+            <div class="searchbox">
+              <div class="search-input">
+                <input type="text" name="search" id="searchItem" />
+                <div class="close"><i class="fa-solid fa-xmark"></i></div>
+              </div>
+              <div class="open-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div class="member-area">
+              <div class="online">
+                <a href="" class="goto-online">online işlemler</a>
+              </div>
+              <div class="language">
+                <h2>TR</h2>
+              </div>
+              <div class="open-mobile">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <div class="position-controller">
+              <div class="all-items">
+                <div class="nav-link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_822_740"
+                      maskUnits="userSpaceOnUse"
+                      x="2"
+                      y="2"
+                      width="19"
+                      height="20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.7099 2.30001L20.4199 10.18C20.7927 10.5666 21.0007 11.0829 20.9999 11.62V20C21.0015 21.063 20.1713 21.9415 19.1099 22H15.9999V13C15.9999 12.4477 15.5522 12 14.9999 12H8.99989C8.4476 12 7.99989 12.4477 7.99989 13V22H4.88989C3.82849 21.9415 2.99828 21.063 2.99989 20V11.62C2.99414 11.0849 3.20304 10.5699 3.57989 10.19L11.2899 2.30001C11.4777 2.1107 11.7332 2.00421 11.9999 2.00421C12.2665 2.00421 12.5221 2.1107 12.7099 2.30001ZM13.9999 14H9.99989V21H13.9999V14Z"
+                        fill="white"
+                      ></path>
+                    </mask>
+                    <g mask="url(#mask0_822_740)">
+                      <rect width="24" height="24" fill="#1AAADC"></rect>
+                    </g>
+                  </svg>
+                </div>
+                <div class="nav-link">
+                  <a onclick="showCards()" href="#" class="link-item" id="kartlarimizLink"
+                    >Kartlarımız</a
+                  >
+                </div>
+                <div class="nav-link">
+                  <a onclick="istMobil()" href="#" class="link-item" id="istanbulkartLink">İstanbulkart Mobil</a>
+                </div>
+                <div class="nav-link">
+                  <a onclick="kampanyalar()" href="#" class="link-item" id="kampanyalarLink">Kampanyalar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="background-controller">
+          <div class="slider-area owl-carousel owl-theme">
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <h3 class="card-title">
+                      Şehri doya doya yaşadığın kart, İstanbulkart
+                    </h3>
+                    <p class="card-info">
+                      Ulaşım ve alışverişlerinde tek kart!
+                    </p>
+                    <a href="#" class="card-link">Başvurmak için tıkla!</a>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="card-img">
+                      <img src="./images/card.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <h3 class="card-title">
+                      Şehri doya doya yaşadığın kart, İstanbulkart
+                    </h3>
+                    <p class="card-info">
+                      Ulaşım ve alışverişlerinde tek kart!
+                    </p>
+                    <a href="#" class="card-link">Başvurmak için tıkla!</a>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="card-img">
+                      <img src="./images/mobile-app.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="cards"></div>
+      <section class="announcement">
+        <div class="background-controller">
+          <div class="container">
+            <div class="area-title">
+              <h1>Duyurular</h1>
+            </div>
+            <div class="slider-section owl-carousel owl-theme">
+              <div class="slider-item">
+                <div class="slider-icon">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="slider-text-area">
+                  <h5 class="text-title">
+                    İBB Teknoloji Şirketlerinden Bilişim 500’de Önemli Başarı!
+                  </h5>
+                  <p class="text-history">10.08.2023</p>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-icon">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="slider-text-area">
+                  <h5 class="text-title">
+                    İBB Teknoloji Şirketlerinden Bilişim 500’de Önemli Başarı!
+                  </h5>
+                  <p class="text-history">10.08.2023</p>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-icon">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="slider-text-area">
+                  <h5 class="text-title">
+                    İBB Teknoloji Şirketlerinden Bilişim 500’de Önemli Başarı!
+                  </h5>
+                  <p class="text-history">10.08.2023</p>
+                </div>
+              </div>
+            </div>
+            <a href="" class="see-all-announcement">Tüm Duyuruları Gör</a>
+          </div>
+        </div>
+      </section>
+      <section class="mobile-menu">
+        <div class="logo-area">
+          <a href="index.html">
+            <svg
+              width="125"
+              height="20"
+              viewBox="0 0 125 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.5906 16.6227C12.875 16.6227 13.7126 16.0644 13.7126 15.2266C13.7126 14.6683 13.4333 14.3331 12.6516 14.1657L10.1946 13.6911C7.3746 13.1046 5.86705 11.7089 5.86705 9.559C5.86705 6.90649 8.21234 5.11965 11.6743 5.09172C14.3268 5.09172 16.5044 6.57146 17.1468 8.74919L13.9359 9.72657C13.7406 8.74919 12.8191 8.07902 11.5906 8.07902C10.446 8.07902 9.7199 8.60954 9.7199 9.41935C9.7199 10.0334 10.1388 10.4525 11.088 10.6199L13.5451 11.1223C16.1696 11.625 17.5655 12.9932 17.5655 15.0312C17.5655 17.7675 15.1924 19.6102 11.6743 19.6102C8.3798 19.6102 5.89486 17.8512 5.5041 15.2266L8.77068 14.7243C8.85447 15.8689 9.99918 16.6227 11.5906 16.6227ZM41.4545 19.2752L44.7769 19.2752V5.42684H41.4545L40.9519 7.5487H40.8681C40.3935 6.09689 38.7461 5.09181 36.7359 5.09181C32.9388 5.09181 30.426 7.99544 30.426 12.351C30.426 16.7066 32.9388 19.6102 36.7359 19.6102C38.7461 19.6102 40.3935 18.6051 40.8681 17.1254H40.9519V17.1533L41.4545 19.2752ZM37.6294 8.58171C39.6396 8.58171 40.9519 10.0895 40.9519 12.351C40.9519 14.6125 39.6396 16.1202 37.6294 16.1202C35.6471 16.1202 34.3348 14.6125 34.3348 12.351C34.3348 10.0895 35.6471 8.58171 37.6294 8.58171ZM25.3274 14.3892V8.77707H28.8033V5.42658H25.3274L25.3274 0.0659389H21.5023L21.5023 5.42658H18.4311V8.77707H21.5023V14.6125C21.5023 17.6 23.2334 19.2752 26.2488 19.2752H28.8033V15.8967H27.1144C25.9973 15.8967 25.3274 15.3384 25.3274 14.3892ZM60.6282 10.3406V19.2752H56.8033V11.6528C56.8033 9.86598 55.7144 8.66552 54.1507 8.66552C52.4476 8.66552 51.3308 9.94988 51.3308 11.8204V19.2752H47.5057V5.42663H50.8282L51.3308 7.60458H51.4147C51.8891 6.09679 53.5645 5.09172 55.6305 5.09172C58.646 5.09172 60.6282 7.18554 60.6282 10.3406ZM77.3101 12.3509C77.3101 16.7066 74.7972 19.6102 71.0003 19.6102C68.9897 19.6102 67.3425 18.605 66.8959 17.1253H66.812L66.3094 19.2752H62.9871V0.0658436H66.812V7.54859H66.8959C67.3425 6.09677 68.9897 5.09181 71.0003 5.09181C74.7972 5.09181 77.3101 7.99545 77.3101 12.3509ZM73.4013 12.3509C73.4013 10.0895 72.089 8.58159 70.1068 8.58159C68.1242 8.58159 66.812 10.0895 66.812 12.3509C66.812 14.6125 68.1242 16.1201 70.1068 16.1201C72.089 16.1201 73.4013 14.6125 73.4013 12.3509ZM92.3445 5.42658V19.2752H89.0222L88.5196 17.1252H88.4078C87.9333 18.605 86.2578 19.6102 84.2199 19.6102C81.2044 19.6102 79.1943 17.5161 79.1943 14.3611V5.42658L83.0192 5.42658V13.0488C83.0192 14.8358 84.0801 16.0364 85.6716 16.0364C87.4028 16.0364 88.5196 14.7801 88.5196 12.8814V5.42658H92.3445ZM94.6197 14.6125C94.6197 17.6 96.3508 19.2752 99.3662 19.2752L101.823 19.2752V15.6734H99.785C98.9475 15.6734 98.4449 15.1988 98.4449 14.3892V0.0659389H94.6197V14.6125ZM0.139965 5.42652H3.96489L3.96489 19.2751H0.139965L0.139965 5.42652ZM0.119019 3.6327H3.98595L3.98595 0.0658779H0.119019L0.119019 3.6327Z"
+                fill="white"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M124.881 14.1816C123.831 16.4042 122.033 18.2027 119.81 19.2524L124.881 19.2524V14.1816ZM115.288 4.98362C111.536 1.68934 107.016 3.28151 107.016 8.07648C107.016 12.8714 115.288 18.1423 115.288 18.1423C115.288 18.1423 123.56 12.8898 123.56 8.07648C123.56 3.26329 118.582 1.63443 115.288 4.98362ZM110.765 0.0657921H105.694V5.13661C106.744 2.91404 108.543 1.11548 110.765 0.0657921ZM124.881 0.065815V5.13664C123.831 2.91406 122.033 1.11551 119.81 0.065815L124.881 0.065815ZM105.694 19.2524V14.1816C106.744 16.4042 108.543 18.2028 110.765 19.2524H105.694Z"
+                fill="white"
+              ></path>
+            </svg>
+          </a>
+          <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="container">
+          <div class="nav-links">
+            <a href="" class="link-item">Online İşlemler</a>
+            <a href="" class="link-item">Kampanyalar</a>
+            <a href="" class="link-item">İstanbulkart Mobil</a>
+            <a href="" class="link-item">Kartlarımız</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="footer-line"></div>
+    <footer class="footer">
+      <div class="footer-left">
+        <div class="footer-left-logo">
+          <img class="left-img" src="./images/footer/logo.webp" alt="" />
+        </div>
+        <div class="footer-left-sub-logo">
+          <img class="img" src="./images/footer/subLogo.webp" alt="" />
+
+          <img class="img" src="./images/footer/subLogo2.webp" alt="" />
+        </div>
+        <div class="footer-left-text">
+          © 2022 Copyright istanbulkart, Tüm hakları saklıdır.
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right-menuRow">
+          <div class="footer-right-menu">
+            <a class="footer-right-link">Haberler</a>
+            <a class="footer-right-link">Ücretler ve Limitler</a>
+            <a class="footer-right-link">Sık Sorulan Sorular</a>
+            <a class="footer-right-link">Duyurular</a>
+            <a class="footer-right-link">Hukuki Metinler</a>
+            <a class="footer-right-link">Başvuru Merkezleri</a>
+            <div>
+              <h5 class="footer-right-link">Bireysel Müşteri Hattı</h5>
+              <div class="right-bottom">
+                <a>ALO</a>
+                <a>153</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-right-menu">
+            <a class="footer-right-link">İstanbulkart Blog</a>
+            <a class="footer-right-link">Güvenlik</a>
+            <a class="footer-right-link">Basın Materyalleri</a>
+            <a class="footer-right-link">İletişim</a>
+            <div style="margin-top: 75px"></div>
+            <div>
+              <h5 class="footer-right-link">Kurumsal Müşteri Hattı</h5>
+              <div class="right-bottom">
+                <a>444 21 61</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-right-menu">
+            <a class="footer-right-link">Mobil Uygulamalar</a>
+
+            <div>
+              <a href="https://play.google.com/store/apps/details?id=com.belbim.istanbulkart&hl=tr&gl=US" target="_blank" rel="noopener noreferrer">
+              <img class="footer-img" src="./images/footer/playstore.png" />
+            </a>
+            </div>
+
+            <div>
+              <a href="https://apps.apple.com/tr/app/istanbulkart/id1352307391?l=tr" target="_blank" rel="noopener noreferrer">
+              <img class="footer-img" src="./images/footer/appstore.png" />
+            </a>
+            </div>
+            
+            <div>
+              <a href="https://appgallery.huawei.com/app/C102347171?sharePrepath=ag&locale=tr_TR&source=appshare&subsource=C102347171" target="_blank" rel="noopener noreferrer">
+              <img class="footer-img" src="./images/footer/appgalery.png" />
+            </a>
+            </div>
+            <div>
+              <h5 class="footer-right-link">Sosyal Medya</h5>
+
+              <div class="social">
+                <a href="https://www.instagram.com/istanbulkart.istanbul/" target="_blank" rel="noopener noreferrer">
+                <div class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg></div>
+              </a>
+
+              <a href="https://www.facebook.com/istanbulkart/" target="_blank" rel="noopener noreferrer">
+                <div  class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg></div>
+              </a>
+
+                <a href="https://twitter.com/istanbulkart" target="_blank" rel="noopener noreferrer">
+                <div  class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></div>
+              </a>
+
+                <a href="https://www.youtube.com/@Belbim" target="_blank" rel="noopener noreferrer">
+                <div  class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg></div>
+              </a>
+                <a href="https://www.tiktok.com/@istanbulkart.istanbul" target="_blank" rel="noopener noreferrer">
+                <div  class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                </svg></div>
+              </a>
+
+                <a href="https://www.linkedin.com/company/belbimas/" target="_blank" rel="noopener noreferrer">
+                <div  class="social-item"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg></div>
+              </a>
+              </div>
+            </div>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

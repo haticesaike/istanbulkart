@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7%;
+  gap: 20px;
+}
+.detail {
+  display: flex;
+  width: 69%;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #383c52;
+  height: 33px;
+  border-radius: 10px;
+  padding: 25px;
+}
+button {
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  border-radius: inherit;
+  color: #383c52;
+  border: 2px #ebeef0 solid;
+  cursor: pointer;
+  width: 200px;
+}

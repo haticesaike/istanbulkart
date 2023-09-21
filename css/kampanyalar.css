@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  margin: 7%;
+  gap: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #383c52;
+  color: #fff;
+  height: 33px;
+  border-radius: 10px;
+  padding: 25px;
+}
+button {
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+  border-radius: inherit;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.kampanyalar {
+  margin: 7%;
+}
+.guncel {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  display: flex;
+  border-radius: 14px;
+  height: 477px;
+  width: 275px;
+  margin: 5px;
+}
+.image img {
+  border-radius: inherit;
+  height: inherit;
+  width: inherit;
+  cursor: pointer;
+}
+.gecmis {
+  display: flex;
+}
+.gecmis img {
+  opacity: 0.7;
+}
+.gecmis img:hover {
+  opacity: 1;
+}
