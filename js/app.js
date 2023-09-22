@@ -106,8 +106,10 @@ function showCards() {
 function istMobil() {
   var heroSection = document.querySelector(".hero-section");
   var announcement = document.querySelector(".announcement");
+  var offer = document.querySelector(".offer");
   announcement.innerHTML = "";
   heroSection.innerHTML = "";
+  offer.innerHTML = "";
   fetch("ist-card.html")
     .then((response) => response.text())
     .then((html) => {
@@ -129,8 +131,10 @@ function istMobil() {
 function kampanyalar() {
   var heroSection = document.querySelector(".hero-section");
   var announcement = document.querySelector(".announcement");
+  var offer = document.querySelector(".offer");
   announcement.innerHTML = "";
   heroSection.innerHTML = "";
+  offer.innerHTML = "";
 
   fetch("kampanyalar.html")
     .then((response) => response.text())
@@ -183,7 +187,9 @@ function btnGecmis() {
   guncel[0].style.display = "none";
   gecmis[0].style.display = "flex";
 }
-function cardClick() {
+function cardClick(index) {
+  console.log(index);
+  
   var kampanyalar = document.getElementById("kampanyalarLink");
   kampanyalar.style.color = "black";
 
@@ -191,31 +197,24 @@ function cardClick() {
   var announcement = document.querySelector(".announcement");
   announcement.innerHTML = "";
   heroSection.innerHTML = "";
-
+ 
   fetch("card-detail.html")
     .then((response) => response.text())
     .then((html) => {
       document.getElementById("cards").innerHTML = html;
+
+       let baslik = document.getElementById("baslikCard");
+       let image = document.getElementById("imageCard");
+       let detail = document.getElementById("descriptionCard");
+       let hint = document.getElementById("hintCard");
+       fetch("cardDetail.json")
+       .then(response => response.json())
+       .then(data => {
+           baslik.innerHTML = data[index].desc;
+           image.src = data[index].img;
+           detail.innerHTML = data[index].detail;
+           hint.innerHTML = data[index].hint;
+       }) 
     });
 }
 
-function fetchData(){
-    fetch("cardDetail.json")
-    .then(response => response.json())
-    .then(data => {
-        
-        console.log("data",data)
-        var baslikElement = document.querySelector('.card-container h1');
-var resimElement = document.querySelector('.card-container img');
-var metinElement = document.querySelector('.detail-text p:first-child');
-var tarihElement = document.querySelector('.detail-text p:last-child');
-var kosullarButton = document.querySelector('.detail-button button');
-
-baslikElement.textContent = data.desc;
-resimElement.src = data.img;
-metinElement.textContent = data.text-1;
-tarihElement.textContent = data.text-2;
-tarihElement.textContent = data.offerText;
-    })
-}
-fetchData()

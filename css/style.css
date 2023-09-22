@@ -8,6 +8,7 @@
 header {
   padding: 30px 0;
 }
+
 header .header-top {
 }
 header .header-top .background-controller {
@@ -289,11 +290,14 @@ header .open-mobile {
   color: #383c52;
   font-weight: bold;
   margin-left: calc(50% - 115px);
-
   font-size: 20px;
   border: 1px solid #999;
   padding: 12px 27px;
   border-radius: 12px;
+}
+.announcement .see-all-announcement:hover {
+  background-color: #383c52;
+  color: white;
 }
 .mobile-menu {
   display: none;
@@ -457,6 +461,46 @@ header .open-mobile {
 }
 .all-cards .background-controller .card-item .content-area ul li .card-link {
 }
+.index-kampanyalar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+swiper-container {
+  width: 76%;
+  height: 100%;
+}
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 440px;
+  width: 253px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+swiper-slide img {
+  height: 440px;
+  width: 253px;
+  border-radius: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.kampanyalar-btn {
+  color: #383c52;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #999;
+  padding: 12px 27px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.kampanyalar-btn:hover {
+  background-color: #383c52;
+  color: white;
+}
+
 .footer-line {
   border-top: 2.8px solid #ebebed;
 }

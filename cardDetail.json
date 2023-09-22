@@ -2,9 +2,9 @@
     {
         "id":1,
         "desc":"İstanbulkart Dünyasına hoş geldin 🤭",
-        "img":"images/kampanya-detail/1.jpg",
-        "text-1":"Öğrenci İstanbulkartlılara özel QR kodla 10 Geç 9 Öde!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
+        "img":"images/kampanya-detail/1.png",
+        "detail":"Öğrenci İstanbulkartlılara özel QR kodla 10 Geç 9 Öde!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
         "offerText":"template"
 
     },
@@ -12,65 +12,65 @@
     {
         "id":2,
         "desc":"İstanbulkart Öğrenci Şenliği Starbucks’ta 🌤️",
-        "img":"images/kampanya-detail/2.jpg",
-        "text-1":"Öğrenci İstanbulkartlılara özel Starbucks hesabına 150 TL ve üzeri yükleme yapana %20 hediye!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
+        "img":"images/kampanya-detail/2.png",
+        "detail":"Öğrenci İstanbulkartlılara özel Starbucks hesabına 150 TL ve üzeri yükleme yapana %20 hediye!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
         "offerText":"template"
     },
     {
         "id":3,
         "desc":"İstanbulkart Öğrenci Şenliği İstanbulkart Mobil’de 🌴 😎",
         "img":"images/kampanya-detail/3.png",
-        "text-1":"Yeterli bakiye kalmadığında belirlediği tutarın İstanbulkart’ına yüklenmesi için İstanbulkart Mobil’den otomatik yükleme talimatı veren öğrenci İstanbulkartlılara özel her talimatın %10’u hediye!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
+        "detail":"Yeterli bakiye kalmadığında belirlediği tutarın İstanbulkart’ına yüklenmesi için İstanbulkart Mobil’den otomatik yükleme talimatı veren öğrenci İstanbulkartlılara özel her talimatın %10’u hediye!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
         "offerText":"template"
     },
     {
         "id":4,
         "desc":"İstanbulkart Öğrenci Şenliği İstanbul Kitapçısında! 📚",
-        "img":"images/kampanya-detail/4.jpg",
-        "text-1":"Öğrenci İstanbulkartlıların İstanbul Kitapçılarında yapacağı tüm ödemelerin %25’i nakit iade!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
+        "img":"images/kampanya-detail/4.png",
+        "detail":"Öğrenci İstanbulkartlıların İstanbul Kitapçılarında yapacağı tüm ödemelerin %25’i nakit iade!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.08.2023-30.09.2023",
         "offerText":"template"
     },
     {
         "id":5,
         "desc":"İstanbulkart ile Park Et Devam Et",
         "img":"images/kampanya-detail/5.png",
-        "text-1":"Aracını kampanya dahilindeki Yenikapı İSPARK’a park edip ödemeni İstanbulkart’ın ile yap, aynı gün kullanacağın PD1 hatlı otobüste 2 geçişe kadar nakit iade kazan",
-        "text-2":"Kampanya Geçerlilik Tarihi: 11.08.2023-30.12.2023",
+        "detail":"Aracını kampanya dahilindeki Yenikapı İSPARK’a park edip ödemeni İstanbulkart’ın ile yap, aynı gün kullanacağın PD1 hatlı otobüste 2 geçişe kadar nakit iade kazan",
+        "hint":"Kampanya Geçerlilik Tarihi: 11.08.2023-30.12.2023",
         "offerText":"template"
     },
     {
         "id":6,
         "desc":"İstanbulkart’la İspark ödemelerinin %10’u nakit iade!",
         "img":"images/kampanya-detail/6.png",
-        "text-1":"İspark'ta yapacağın İstanbulkart ödemelerinin %10'u ödeme yaptığın İstanbulkart'ına iade!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.05.2023-30.09.2023",
+        "detail":"İspark'ta yapacağın İstanbulkart ödemelerinin %10'u ödeme yaptığın İstanbulkart'ına iade!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.05.2023-30.09.2023",
         "offerText":"template"
     },
     {
         "id":7,
         "desc":"İstanbulkart ile Madame Tussauds ve Legoland’de Bir Bilet Alana Bir Bilet Hediye!",
         "img":"images/kampanya-detail/7.png",
-        "text-1":"Madame Tussauds markasının sanat, spor ve siyaset dünyasından tarihi ve kültürel kahramanlarının İstanbul'daki evine konuk olmak ve/veya İstanbul'un eğlenceli LEGO gezilerine, LEGO parçalarının yapım sırrının anlatıldığı LEGO fabrika turuna, efektlerle zenginleştirilmiş 4 boyutlu sinemaya şahit olmak için ödeme yöntemi olarak İstanbulkart'ı seçenlere özel Bir Yetişkin Bileti Alana Bir Çocuk Bileti Hediye! Tekli bilet alımlarında ise %40 indirim fırsatı!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 14.06.2023-30.12.2023",
+        "detail":"Madame Tussauds markasının sanat, spor ve siyaset dünyasından tarihi ve kültürel kahramanlarının İstanbul'daki evine konuk olmak ve/veya İstanbul'un eğlenceli LEGO gezilerine, LEGO parçalarının yapım sırrının anlatıldığı LEGO fabrika turuna, efektlerle zenginleştirilmiş 4 boyutlu sinemaya şahit olmak için ödeme yöntemi olarak İstanbulkart'ı seçenlere özel Bir Yetişkin Bileti Alana Bir Çocuk Bileti Hediye! Tekli bilet alımlarında ise %40 indirim fırsatı!",
+        "hint":"Kampanya Geçerlilik Tarihi: 14.06.2023-30.12.2023",
         "offerText":"template"
     },
     {
         "id":8,
         "desc":"İstanbulkart’la Beltur ödemelerinin %20’si nakit iade",
         "img":"images/kampanya-detail/8.png",
-        "text-1":"Beltur restoran, burger, kafe ve büfelerinde yapacağın İstanbulkart ödemelerinin %20'si ödeme yaptığın İstanbulkart'ına iade!",
-        "text-2":"Kampanya Geçerlilik Tarihi: 31.07.2023-31.08.2023",
+        "detail":"Beltur restoran, burger, kafe ve büfelerinde yapacağın İstanbulkart ödemelerinin %20'si ödeme yaptığın İstanbulkart'ına iade!",
+        "hint":"Kampanya Geçerlilik Tarihi: 31.07.2023-31.08.2023",
         "offerText":"template"
     },
     {
         "id":9,
         "desc":"İstanbulkart Şimdi de Starbucks Mobil’de!",
         "img":"images/kampanya-detail/9.png",
-        "text-1":"Starbucks Mobil'i ilk defa indirip İstanbulkart ile 75 TL bakiye yükleyene 1 tall boy içecek ikram edilecektir.",
-        "text-2":"Kampanya Geçerlilik Tarihi: 14.06.2023-30.08.2023",
+        "detail":"Starbucks Mobil'i ilk defa indirip İstanbulkart ile 75 TL bakiye yükleyene 1 tall boy içecek ikram edilecektir.",
+        "hint":"Kampanya Geçerlilik Tarihi: 14.06.2023-30.08.2023",
         "offerText":"template"
     }
 ]
